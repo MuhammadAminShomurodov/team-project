@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "golos";
+  src: url(../fonts/GolosText-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.header-top {
+  background-color: #f4f5f8;
+}
+.header-top-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 0;
+}
+.header-top-middle {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.header-top-right {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.header-top-right-left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  color: #757575;
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header-top-right-right {
+  display: flex;
+  gap: 32px;
+  color: #757575;
+  font-family: Golos;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-row-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.header-row-lef a {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+  background-color: #f4f5f8;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+.header-row-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.header-row-right img {
+  background-color: #f4f5f8;
+  padding: 10px;
+  border-radius: 8px;
+}
+.header-row-right button {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #202226;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+}
