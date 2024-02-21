@@ -67,6 +67,7 @@ li {
   align-items: center;
   justify-content: space-between;
   margin-top: 28px;
+  margin-bottom: 32px;
 }
 .header-row-lef a {
   font-family: Golos;
@@ -102,4 +103,9 @@ li {
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
+}
+
+@media (max-width: 1024px) {
+  .header-row button {
+  }
 }
