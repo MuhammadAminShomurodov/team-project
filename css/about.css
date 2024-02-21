@@ -91,6 +91,18 @@ color: #161616;
         justify-content: space-between;
     }
     
+    .section_1 h1{
+        padding-top: 40px;
+        width: 624px;
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    }
+    
 
 }
 
@@ -107,6 +119,18 @@ color: #161616;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    
+    .section_1 h1{
+        padding-top: 40px;
+        width: 463px;
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
     }
     
 
