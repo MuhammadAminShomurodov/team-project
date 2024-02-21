@@ -104,8 +104,3 @@ li {
   border: none;
   border-radius: 8px;
 }
-
-@media (max-width: 1024px) {
-  .header-row button {
-  }
-}
