@@ -1,2 +1,220 @@
 @import url("./header.css");
 @import url("./footer.css");
+
+
+
+.section_1{
+    padding-top: 60px;
+}
+.section_1 p{
+font-family: Golos;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+
+}
+
+.section_1 h1{
+    padding-top: 40px;
+    width: 592px;
+font-family: Golos;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+}
+
+.section_2{
+    padding-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+.about_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.section_2 .card{
+    width: 390px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_2 .card h1{
+font-family: Golos;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #757575;
+
+}
+
+.section_2 .card p{
+font-family: Golos;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+
+}
+
+.section_2 .card h2{
+font-family: Golos;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+}
+
+
+/* MEDIA/////////////////////////////// */
+
+@media (max-width:1024px){
+
+    .section_2 .card{
+        width: 280px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .section_1 h1{
+        padding-top: 40px;
+        width: 624px;
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    }
+    
+
+}
+
+@media (max-width:768px){
+
+    .about_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_2 .card{
+        width: 280px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .section_1 h1{
+        padding-top: 40px;
+        width: 463px;
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    }
+    
+
+}
+
+@media (max-width:320px){
+
+    .about_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section_2 .card{
+        width: 280px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .about_cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section_2 .card{
+        width: 390px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .section_2 .card h1{
+    font-family: Golos;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+    
+    }
+    
+    .section_2 .card p{
+    font-family: Golos;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    
+    }
+    
+    .section_2 .card h2{
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    }
+
+    .section_1 p{
+        font-family: Golos;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #161616;
+        
+        }
+        
+        .section_1 h1{
+            padding-top: 40px;
+            width: 288px;
+        font-family: Golos;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #161616;
+        }
+
+}
