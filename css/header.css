@@ -39,8 +39,8 @@ li {
 }
 .header-top-right-left {
   display: flex;
-  align-items: center;
   gap: 32px;
+  align-items: center;
   color: #757575;
   font-family: Golos;
   font-size: 14px;
@@ -52,6 +52,7 @@ li {
 
 .header-top-right-right {
   display: flex;
+  align-items: center;
   gap: 32px;
   color: #757575;
   font-family: Golos;
