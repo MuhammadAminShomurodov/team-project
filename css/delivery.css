@@ -1,2 +1,93 @@
 @import url("./header.css");
 @import url("./footer.css");
+main {
+  font-family: "Golos Text";
+}
+.delivery-test-product {
+}
+
+.delivery-and-pay h1 {
+  font-family: Golos;
+  font-size: 40px;
+  padding-top: 60px;
+  font-weight: 400px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 60px;
+  color: black;
+}
+
+.delivery-test {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: black;
+  padding-bottom: 24px;
+}
+
+.test-product {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  height: 60px;
+  width: 592px;
+  word-wrap: break-word;
+}
+.only-delivery-text {
+}
+
+.delivery {
+  padding-top: 60px;
+  padding-bottom: 24px;
+}
+
+.about-delivery {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  width: 592px;
+  word-wrap: break-word;
+}
+
+.only-pay-texts {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.pay {
+  padding-bottom: 24px;
+}
+
+.about-pay {
+  width: 592px;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1024px) {
+  .delivery-all {
+    width: 461px;
+    height: 716px;
+    word-wrap: break-word;
+  }
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 480px) {
+}
