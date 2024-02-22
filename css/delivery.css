@@ -165,6 +165,10 @@ main {
   border-radius: 20px;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 120px;
+  margin-left: 44px;
+  margin: right 36px;
+  margin-bottom: 120px;
 }
 .comments-left h1 {
   font-family: Golos;
@@ -235,6 +239,30 @@ main {
   .delivery-all {
     padding-left: 42px;
   }
+  .comments-left h1 {
+    width: 424px;
+    height: 192px;
+    size: 40px;
+  }
+  .comments-left p {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9f9f9f;
+    width: 424px;
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 140px;
+  }
+  .comments-all {
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -260,7 +288,6 @@ main {
     padding-left: 72px;
   }
 }
-
 @media (max-width: 320px) {
   .delivery-and-pay h1 {
     font-size: 24px;
@@ -272,10 +299,10 @@ main {
     font-size: 18px;
     width: 191px;
     height: 24px;
+    padding-bottom: 12px;
   }
   .test-product p {
-    height: 132px;
-    width: 461px;
+    padding-top: 12px;
     display: flex;
     flex-wrap: wrap;
     size: 14px;
@@ -283,19 +310,36 @@ main {
     height: 80px;
     top: 36px;
   }
+  .delivery h1 {
+    width: 84px;
+    height: 24px;
+    size: 18px;
+    padding-top: 32px;
+    padding-bottom: 12px;
+  }
   .about-delivery {
-    height: 160px;
-    width: 461px;
+    height: 128px;
+    size: 14px;
+    width: 288px;
     display: flex;
     flex-wrap: wrap;
   }
+  .pay h1 {
+    width: 64px;
+    height: 24px;
+    padding-top: 32px;
+    padding-bottom: 12px;
+    size: 18px;
+  }
   .about-pay {
-    width: 461px;
+    width: 288px;
+    size: 14px;
+
     height: 240px;
     display: flex;
     flex-wrap: wrap;
   }
   .delivery-all {
-    padding-left: 72px;
+    padding-left: 16px;
   }
 }
