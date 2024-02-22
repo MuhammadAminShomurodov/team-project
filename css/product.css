@@ -232,3 +232,102 @@
   margin-left: 16px;
   margin-bottom: 32px;
 }
+.bolim-3 .container .texts h4 {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #161616;
+  margin-bottom: 24px;
+}
+.bolim-3 .container .texts .texts4 {
+  max-width: 692px;
+  display: grid;
+  grid-template-columns: 304px 388px;
+  padding: 20px 0;
+  border-bottom: 1px solid #757575;
+  margin-bottom: 60px;
+}
+.bolim-3 .container .texts .texts4 .p1 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #757575;
+}
+.bolim-3 .container .texts .texts4 .p2 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+.bolim-3 .container .video h3 {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #161616;
+  margin-bottom: 24px;
+}
+.bolim-4 .container .cards-content h3 {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #161616;
+  margin-bottom: 24px;
+}
+.bolim-4 .container .cards-content .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 289px);
+  justify-content: space-between;
+}
+.bolim-4 .container .cards-content .cards .card {
+  padding: 8px 8px 20px 8px;
+  border-radius: 16px;
+  background-color: #f4f5f8;
+}
+.bolim-4 .container .cards-content .cards .card .pag {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+  margin: 20px 0 156px;
+}
+.bolim-4 .container .cards-content .cards .card h4 {
+  font-family: Golos;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #161616;
+  margin-bottom: 20px;
+}
+.bolim-4 .container .cards-content .cards .card button {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding: 12px 96.5px;
+  background-color: #202226;
+  border-radius: 20px;
+  margin-left: 12px;
+}
