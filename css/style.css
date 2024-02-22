@@ -359,6 +359,8 @@
   border-radius: 20px;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 .comments-left h1 {
   font-family: Golos;
@@ -404,4 +406,159 @@
   border: 1px solid #ffffff;
   margin-top: 16px;
   width: 552px;
+}
+.comments-right-btn button {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 44px;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .home-product-all {
+    max-width: 944px;
+  }
+  .home-new-product-left h1 {
+    max-width: 552px;
+  }
+  .home-new-product-right img {
+    width: 320px;
+    height: 388px;
+  }
+  .liner2 {
+    max-width: 888px;
+  }
+  .home-product-row {
+    padding-top: 40px;
+    gap: 639px;
+  }
+  .model-cards-text h1 {
+    width: 624px;
+  }
+  .model-cards-text p {
+    width: 624px;
+  }
+  .model-card {
+    width: 304px;
+  }
+  .model-card img {
+    width: 256px;
+    height: 180px;
+    margin-top: 50px;
+  }
+  .your-height h2 {
+    width: 624px;
+    margin-top: 100px;
+  }
+  .why-me-all {
+    flex-direction: column;
+  }
+  .why-me-left {
+    width: 943px;
+  }
+  .why-me-right-card1 {
+    width: 304px;
+    margin-top: 16px;
+    padding: 0 57px;
+  }
+  .why-me-right-card2 {
+    width: 304px;
+    margin-top: 16px;
+    padding: 0 57px;
+  }
+  .why-me-right-card3 {
+    width: 304px;
+    margin-top: 16px;
+    padding: 0 57px;
+  }
+  .why-me-right-card4 {
+    width: 304px;
+    padding: 0 57px;
+  }
+  .why-me-right-card5 {
+    width: 304px;
+    padding: 0 57px;
+  }
+  .why-me-right-card6 {
+    width: 304px;
+    padding: 0 57px;
+  }
+  .comments-all {
+    width: 944px;
+  }
+  .comments-left h1 {
+    width: 424px;
+  }
+  .comments-left p {
+    width: 424px;
+  }
+  .comments-right {
+    width: 424px;
+  }
+  .liners {
+    width: 424px;
+  }
+}
+@media (max-width: 768px) {
+  .home-product-all {
+    width: 624px;
+    margin: 0 auto;
+  }
+  .home-new-product {
+    flex-direction: column-reverse;
+  }
+  .home-new-product-right img {
+    width: 592px;
+    padding-left: 40px;
+  }
+  .home-new-product-left {
+    width: 552px;
+  }
+  .home-product-row {
+    gap: 327px;
+  }
+  .your-height-card {
+    margin: 0 auto;
+  }
+  .why-me-left {
+    width: 624px;
+    margin: 0 auto;
+  }
+  .why-me-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 624px;
+  }
+  .comments-all {
+    width: 624px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  .comments-left {
+    width: 552px;
+  }
+  .comments-left h1 {
+    width: 552px;
+  }
+  .comments-left p {
+    width: 552px;
+  }
+  .comments-right {
+    margin-top: -100px;
+    margin-bottom: 36px;
+    width: 552px;
+  }
+  .liners {
+    width: 552px;
+  }
 }

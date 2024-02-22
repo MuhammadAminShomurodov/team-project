@@ -80,6 +80,20 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+.comments-right-btn button {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 44px;
+  cursor: pointer;
+}
 
 @media (max-width: 1040px) {
   .delivery-test-product {
