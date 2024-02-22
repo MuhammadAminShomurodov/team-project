@@ -1,2 +1,301 @@
 @import url("./header.css");
 @import url("./footer.css");
+main {
+  font-family: "Golos Text";
+}
+.delivery-test-product {
+}
+
+.delivery-and-pay h1 {
+  font-family: Golos;
+  font-size: 40px;
+  padding-top: 60px;
+  font-weight: 400px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 60px;
+  color: black;
+}
+
+.delivery-test {
+  font-family: Golos;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: black;
+  padding-bottom: 24px;
+}
+
+.test-product {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  height: 60px;
+  width: 592px;
+  word-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+}
+.only-delivery-text {
+}
+
+.delivery {
+  padding-top: 60px;
+  padding-bottom: 24px;
+}
+
+.about-delivery {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  width: 592px;
+  word-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.only-pay-texts {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.pay {
+  padding-bottom: 24px;
+}
+
+.about-pay {
+  width: 592px;
+  word-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1040px) {
+  .delivery-test-product {
+  }
+
+  .delivery-and-pay h1 {
+    font-family: Golos;
+    font-size: 40px;
+    padding-top: 60px;
+    font-weight: 400px;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 60px;
+    color: black;
+  }
+
+  .delivery-test {
+    font-family: Golos;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: black;
+    padding-bottom: 24px;
+  }
+
+  .test-product {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    height: 60px;
+    width: 592px;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .only-delivery-text {
+  }
+
+  .delivery {
+    padding-top: 60px;
+    padding-bottom: 24px;
+  }
+
+  .about-delivery {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    width: 592px;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .only-pay-texts {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+
+  .pay {
+    padding-bottom: 24px;
+  }
+
+  .about-pay {
+    width: 592px;
+    word-wrap: break-word;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.comments-all {
+  background-color: #202226;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.comments-left h1 {
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 451px;
+  padding-top: 60px;
+}
+.comments-left p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+  width: 451px;
+  padding-top: 20px;
+  padding-bottom: 140px;
+}
+.comments-right {
+  margin-top: 46px;
+}
+
+.comments-right input {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+  background: none;
+  border: none;
+  outline: none;
+  padding-top: 36px;
+}
+.liners {
+  border: 1px solid #ffffff;
+  margin-top: 16px;
+  width: 552px;
+}
+
+@media (max-width: 1024px) {
+  .test-product p {
+    height: 80px;
+    width: 461px;
+    display: flex;
+    flex-wrap: wrap;
+    left: 42px;
+  }
+  .about-delivery {
+    height: 160px;
+    width: 461px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-pay {
+    width: 461px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .delivery-all {
+    padding-left: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .test-product p {
+    height: 132px;
+    width: 461px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-delivery {
+    height: 160px;
+    width: 461px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-pay {
+    width: 461px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .delivery-all {
+    padding-left: 72px;
+  }
+}
+
+@media (max-width: 320px) {
+  .delivery-and-pay h1 {
+    font-size: 24px;
+    width: 220px;
+    height: 28px;
+    left: 16px;
+  }
+  .delivery-test h3 {
+    font-size: 18px;
+    width: 191px;
+    height: 24px;
+  }
+  .test-product p {
+    height: 132px;
+    width: 461px;
+    display: flex;
+    flex-wrap: wrap;
+    size: 14px;
+    width: 288px;
+    height: 80px;
+    top: 36px;
+  }
+  .about-delivery {
+    height: 160px;
+    width: 461px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-pay {
+    width: 461px;
+    height: 240px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .delivery-all {
+    padding-left: 72px;
+  }
+}

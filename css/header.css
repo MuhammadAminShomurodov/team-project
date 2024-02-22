@@ -2,6 +2,10 @@
   font-family: "golos";
   src: url(../fonts/GolosText-Regular.ttf);
 }
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;

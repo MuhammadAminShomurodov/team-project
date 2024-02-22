@@ -266,3 +266,142 @@
   padding-left: 40px;
   padding-bottom: 40px;
 }
+.why-me-all {
+  display: flex;
+  justify-content: space-between;
+}
+.why-me-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+.why-me-right-card1 {
+  background-color: #f4f5f8;
+  border-radius: 14.89px;
+  width: 187px;
+  height: 187px;
+}
+.why-me-right-card1 img {
+  padding: 32px;
+}
+.why-me-right-card2 {
+  background-color: #f4f5f8;
+  border-radius: 14.89px;
+  width: 187px;
+  height: 187px;
+}
+.why-me-right-card2 img {
+  padding-top: 32px;
+  padding-left: 49px;
+  padding-right: 49px;
+  padding-bottom: 13px;
+}
+.why-me-right-card2 p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+.why-me-right-card2 h4 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+.why-me-right-card3 {
+  background-color: #f4f5f8;
+  border-radius: 14.89px;
+  width: 187px;
+  height: 187px;
+}
+.why-me-right-card3 img {
+  padding: 6px 9px;
+  /* width: 169px;
+  height: 175px; */
+}
+.why-me-right-card4 {
+  background-color: #f4f5f8;
+  border-radius: 14.89px;
+  width: 187px;
+  height: 187px;
+}
+.why-me-right-card4 img {
+  padding: 32px 43px;
+}
+.why-me-right-card5 {
+  background-color: #f4f5f8;
+  border-radius: 14.89px;
+  width: 187px;
+  height: 187px;
+}
+.why-me-right-card5 img {
+  padding: 51px 29px;
+}
+.why-me-right-card6 {
+  background-color: #f4f5f8;
+  border-radius: 14.89px;
+  width: 187px;
+  height: 187px;
+}
+.why-me-right-card6 img {
+  padding: 65px 18px;
+}
+
+.comments-all {
+  background-color: #202226;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.comments-left h1 {
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 451px;
+  padding-top: 60px;
+}
+.comments-left p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+  width: 451px;
+  padding-top: 20px;
+  padding-bottom: 140px;
+}
+.comments-right {
+  margin-top: 46px;
+}
+
+.comments-right input {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+  background: none;
+  border: none;
+  outline: none;
+  padding-top: 36px;
+}
+.liners {
+  border: 1px solid #ffffff;
+  margin-top: 16px;
+  width: 552px;
+}
