@@ -74,6 +74,57 @@ main {
   width: 592px;
   word-wrap: break-word;
 }
+.comments-all {
+  background-color: #202226;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.comments-left h1 {
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  width: 451px;
+  padding-top: 60px;
+}
+.comments-left p {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+  width: 451px;
+  padding-top: 20px;
+  padding-bottom: 140px;
+}
+.comments-right {
+  margin-top: 46px;
+}
+
+.comments-right input {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #9f9f9f;
+  background: none;
+  border: none;
+  outline: none;
+  padding-top: 36px;
+}
+.liners {
+  border: 1px solid #ffffff;
+  margin-top: 16px;
+  width: 552px;
+}
 
 @media (max-width: 1024px) {
   .delivery-all {
