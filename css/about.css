@@ -1,143 +1,241 @@
 @import url("./header.css");
 @import url("./footer.css");
 
-
-
-.section_1{
-    padding-top: 60px;
+.section_1 {
+  padding-top: 60px;
 }
-.section_1 p{
-font-family: Golos;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: left;
-color: #161616;
-
+.section_1 p {
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
 }
 
-.section_1 h1{
-    padding-top: 40px;
-    width: 592px;
-font-family: Golos;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #161616;
+.section_1 h1 {
+  padding-top: 40px;
+  width: 592px;
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
 }
 
-.section_2{
-    padding-top: 120px;
-    margin-bottom: 120px;
-
+.section_2 {
+  padding-top: 120px;
+  margin-bottom: 120px;
 }
 
-.about_cards{
-    display: flex;
-    justify-content: space-between;
-   
+.about_cards {
+  display: flex;
+  justify-content: space-between;
 }
-.section_2 .card{
-    width: 390px;
-    height: 160px;
+.section_2 .card {
+  width: 390px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_2 .card h1 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #757575;
+}
+
+.section_2 .card p {
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.section_2 .card h2 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.section_3_cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.section_3 .card1 {
+  margin-bottom: 50px;
+  width: 592px;
+  height: 390px;
+  background: #f4f5f8;
+}
+
+.section_3 p {
+  padding: 40px 20px 20px 20px;
+  font-family: Golos;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.section_3 h5 {
+  font-family: Golos;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #757575;
+  padding: 105px 20px 0px 20px;
+}
+
+.section_3 .card2 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 186px 186px 186px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NurjahonTo'rayev/////////////////////////////////////////////////////////////////////////start//////////////////////////////////////////////////////////////////// */
+
+@font-face {
+  font-family: Golos;
+  src: url(../fonts/GolosText-Regular.ttf);
+}
+.about-bottom p {
+  color: #161616;
+  font-size: 16px;
+  font-family: Golos;
+}
+.about-bottom {
+  display: flex;
+  gap: 112px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.about-bottom-h1 {
+  font-size: 40px;
+  width: 740px;
+  margin-bottom: 60px;
+  font-family: Golos;
+}
+.about-bottom-text-top {
+  margin-bottom: 60px;
+}
+.about-bottom-text-top h2,
+.about-bottom-text-bottom h2 {
+  padding-bottom: 24px;
+  font-family: Golos;
+  font-size: 24px;
+}
+
+/* Media************** */
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////NurjahonTo'rayev///////////////////////////////////////////////////////////////////////////////////////////////////////////////////end/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* MEDIA/////////////////////////////// */
+
+@media (max-width: 1024px) {
+  .section_2 .card {
+    width: 280px;
+    height: 180px;
     display: flex;
     flex-direction: column;
-}
+    justify-content: space-between;
+  }
 
-.section_2 .card h1{
-font-family: Golos;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #757575;
+  .section_1 h1 {
+    padding-top: 40px;
+    width: 624px;
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
 
-}
-
-.section_2 .card p{
-font-family: Golos;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: left;
-color: #161616;
-
-}
-
-.section_2 .card h2{
-font-family: Golos;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #161616;
-}
-
-.section_3_cards{
+  .section_3_cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-}
+  }
 
-.section_3 .card1{
+  .section_3 .card1 {
     margin-bottom: 50px;
-    width: 592px;
+    width: 943px;
     height: 390px;
-    background: #F4F5F8;
-}
+    background: #f4f5f8;
+  }
 
-.section_3 p{
+  .section_3 p {
     padding: 40px 20px 20px 20px;
-font-family: Golos;
-font-size: 40px;
-font-weight: 400;
-line-height: 48px;
-letter-spacing: 0em;
-text-align: left;
-color: #161616;
-}
+    font-family: Golos;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
 
-.section_3 h5{
-font-family: Golos;
-font-size: 16px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #757575;
-padding: 105px 20px 0px 20px;
-}
+  .section_3 h5 {
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+    padding: 105px 20px 0px 20px;
+  }
 
-.section_3 .card2{
-
+  .section_3 .card2 {
     display: grid;
-    gap: 15px;
+    gap: 80px;
     grid-template-columns: 186px 186px 186px;
+  }
 }
 
-/* MEDIA/////////////////////////////// */
+@media (max-width: 768px) {
+  .about_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-@media (max-width:1024px){
+  .section_2 .card {
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-    .section_2 .card{
-        width: 280px;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .section_1 h1{
-        padding-top: 40px;
-        width: 624px;
+  .section_1 h1 {
+    padding-top: 40px;
+    width: 463px;
     font-family: Golos;
     font-size: 16px;
     font-weight: 400;
@@ -145,25 +243,24 @@ padding: 105px 20px 0px 20px;
     letter-spacing: 0em;
     text-align: left;
     color: #161616;
-    }
-    
-    .section_3_cards{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    
-    .section_3 .card1{
-        margin-bottom: 50px;
-        width: 943px;
-        height: 390px;
-        background: #F4F5F8;
-    }
-    
-    .section_3 p{
-        padding: 40px 20px 20px 20px;
+  }
+  .section_3_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .section_3 .card1 {
+    margin-bottom: 50px;
+    width: 628px;
+    height: 390px;
+    background: #f4f5f8;
+  }
+
+  .section_3 p {
+    padding: 40px 20px 20px 20px;
     font-family: Golos;
     font-size: 40px;
     font-weight: 400;
@@ -171,9 +268,9 @@ padding: 105px 20px 0px 20px;
     letter-spacing: 0em;
     text-align: left;
     color: #161616;
-    }
-    
-    .section_3 h5{
+  }
+
+  .section_3 h5 {
     font-family: Golos;
     font-size: 16px;
     font-weight: 400;
@@ -182,116 +279,41 @@ padding: 105px 20px 0px 20px;
     text-align: left;
     color: #757575;
     padding: 105px 20px 0px 20px;
-    }
-    
-    .section_3 .card2{
-    
-        display: grid;
-        gap: 80px;
-        grid-template-columns: 186px 186px 186px;
-    }
+  }
 
+  .section_3 .card2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 186px 185px;
+  }
 }
 
-@media (max-width:768px){
+@media (max-width: 320px) {
+  .about_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .about_cards{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .section_2 .card {
+    width: 280px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 
-    .section_2 .card{
-        width: 280px;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .section_1 h1{
-        padding-top: 40px;
-        width: 463px;
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #161616;
-    }
-    .section_3_cards{
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    
-    .section_3 .card1{
-        margin-bottom: 50px;
-        width: 628px;
-        height: 390px;
-        background: #F4F5F8;
-    }
-    
-    .section_3 p{
-        padding: 40px 20px 20px 20px;
-    font-family: Golos;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 48px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #161616;
-    }
-    
-    .section_3 h5{
-    font-family: Golos;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #757575;
-    padding: 105px 20px 0px 20px;
-    }
-    
-    .section_3 .card2{
-    
-        display: grid;
-        gap: 20px;
-        grid-template-columns: 186px 185px ;
-    }
+  .about_cards {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section_2 .card {
+    width: 390px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+  }
 
-}
-
-@media (max-width:320px){
-
-    .about_cards{
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .section_2 .card{
-        width: 280px;
-        height: 180px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .about_cards{
-        display: flex;
-        justify-content: space-between;
-    }
-    .section_2 .card{
-        width: 390px;
-        height: 160px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .section_2 .card h1{
+  .section_2 .card h1 {
     font-family: Golos;
     font-size: 14px;
     font-weight: 400;
@@ -299,10 +321,9 @@ padding: 105px 20px 0px 20px;
     letter-spacing: 0em;
     text-align: left;
     color: #757575;
-    
-    }
-    
-    .section_2 .card p{
+  }
+
+  .section_2 .card p {
     font-family: Golos;
     font-size: 24px;
     font-weight: 400;
@@ -310,10 +331,9 @@ padding: 105px 20px 0px 20px;
     letter-spacing: 0em;
     text-align: left;
     color: #161616;
-    
-    }
-    
-    .section_2 .card h2{
+  }
+
+  .section_2 .card h2 {
     font-family: Golos;
     font-size: 16px;
     font-weight: 400;
@@ -321,73 +341,70 @@ padding: 105px 20px 0px 20px;
     letter-spacing: 0em;
     text-align: left;
     color: #161616;
-    }
+  }
 
-    .section_1 p{
-        font-family: Golos;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #161616;
-        
-        }
-        
-        .section_1 h1{
-            padding-top: 40px;
-            width: 288px;
-        font-family: Golos;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #161616;
-        }
+  .section_1 p {
+    font-family: Golos;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
 
-        .section_3_cards{
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 10px;
-        }
-        
-        .section_3 .card1{
-            margin-bottom: 50px;
-            width: 300px;
-            height: 400px;
-            background: #F4F5F8;
-        }
-        
-        .section_3 p{
-            padding: 40px 10px 0px 10px;
-        font-family: Golos;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #161616;
-        }
-        
-        .section_3 h5{
-        font-family: Golos;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #757575;
-        padding: 40px 10px 0px 10px;
-        }
-        
-        .section_3 .card2{
-        
-            display: grid;
-            gap: 20px;
-            grid-template-columns: 186px  ;
-        }
+  .section_1 h1 {
+    padding-top: 40px;
+    width: 288px;
+    font-family: Golos;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
 
+  .section_3_cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .section_3 .card1 {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 400px;
+    background: #f4f5f8;
+  }
+
+  .section_3 p {
+    padding: 40px 10px 0px 10px;
+    font-family: Golos;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .section_3 h5 {
+    font-family: Golos;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+    padding: 40px 10px 0px 10px;
+  }
+
+  .section_3 .card2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 186px;
+  }
 }
