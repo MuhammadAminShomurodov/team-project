@@ -38,6 +38,7 @@ color: #161616;
 .about_cards{
     display: flex;
     justify-content: space-between;
+   
 }
 .section_2 .card{
     width: 390px;
@@ -78,6 +79,49 @@ text-align: left;
 color: #161616;
 }
 
+.section_3_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section_3 .card1{
+    margin-bottom: 50px;
+    width: 592px;
+    height: 390px;
+    background: #F4F5F8;
+}
+
+.section_3 p{
+    padding: 40px 20px 20px 20px;
+font-family: Golos;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+color: #161616;
+}
+
+.section_3 h5{
+font-family: Golos;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #757575;
+padding: 105px 20px 0px 20px;
+}
+
+.section_3 .card2{
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 186px 186px 186px;
+}
 
 /* MEDIA/////////////////////////////// */
 
@@ -103,6 +147,49 @@ color: #161616;
     color: #161616;
     }
     
+    .section_3_cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .section_3 .card1{
+        margin-bottom: 50px;
+        width: 943px;
+        height: 390px;
+        background: #F4F5F8;
+    }
+    
+    .section_3 p{
+        padding: 40px 20px 20px 20px;
+    font-family: Golos;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    }
+    
+    .section_3 h5{
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+    padding: 105px 20px 0px 20px;
+    }
+    
+    .section_3 .card2{
+    
+        display: grid;
+        gap: 80px;
+        grid-template-columns: 186px 186px 186px;
+    }
 
 }
 
@@ -132,7 +219,49 @@ color: #161616;
     text-align: left;
     color: #161616;
     }
+    .section_3_cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
     
+    .section_3 .card1{
+        margin-bottom: 50px;
+        width: 628px;
+        height: 390px;
+        background: #F4F5F8;
+    }
+    
+    .section_3 p{
+        padding: 40px 20px 20px 20px;
+    font-family: Golos;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+    }
+    
+    .section_3 h5{
+    font-family: Golos;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #757575;
+    padding: 105px 20px 0px 20px;
+    }
+    
+    .section_3 .card2{
+    
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 186px 185px ;
+    }
 
 }
 
@@ -215,6 +344,50 @@ color: #161616;
         letter-spacing: 0em;
         text-align: left;
         color: #161616;
+        }
+
+        .section_3_cards{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .section_3 .card1{
+            margin-bottom: 50px;
+            width: 300px;
+            height: 400px;
+            background: #F4F5F8;
+        }
+        
+        .section_3 p{
+            padding: 40px 10px 0px 10px;
+        font-family: Golos;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #161616;
+        }
+        
+        .section_3 h5{
+        font-family: Golos;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #757575;
+        padding: 40px 10px 0px 10px;
+        }
+        
+        .section_3 .card2{
+        
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 186px  ;
         }
 
 }
